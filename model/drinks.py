@@ -98,14 +98,12 @@ class Drink(db.Model):
 
 
 # Builds working data for testing
+
 def initDrinks():
     with app.app_context():
-        """Create database and tables"""
-        db.create_all()
-        """Tester data for table"""
-        #d1 = Drink(drinkName='Coke', calories=10)
-        #d2 = Drink(drinkName='Pepsi', calories=20)
 
+        db.create_all()
+        
         drinkstoadd = []
         try:
             with open(r'drinks.json','r') as json_file:
@@ -114,16 +112,14 @@ def initDrinks():
             print("failed")
 
         for item in data:
-            # print(item)
             d_toadd = Drink(drinkName=item['drinkName'], calories=item['calories'])
             drinkstoadd.append(d_toadd)
 
-        """Builds sample user/note(s) data"""
+
         for d in drinkstoadd:
             try:
                 d.create()
             except IntegrityError:
-                '''fails with bad or duplicate data'''
                 db.session.remove()
                 print(f"Records exist, duplicate email, or error: {d.drinkstoadd}")
             
