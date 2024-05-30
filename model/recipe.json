@@ -1,0 +1,89 @@
+
+{
+    "items": [
+        {
+            "genre": "cookies",
+            "id": 10000,
+            "recipe": "Chocolate Chip",
+            "ingredients": "Chocolate chips",
+            "time": "30 m"
+        },
+        {
+            "genre": "cookies",
+            "id": 10001,
+            "recipe": "Snickerdoodle",
+            "ingredients": "Cinnamon",
+            "time": "30 m"
+        },
+        {
+            "genre": "cookies",
+            "id": 10002,
+            "recipe": "Sugar Cookie",
+            "ingredients": "Sugar, Vanilla",
+            "time": "20 m"
+        },        
+        {
+            "genre": "cookies",
+            "id": 10003,
+            "recipe": "Gingerbread",
+            "ingredients": "Cinnamon, Ginger",
+            "time": "40 m"
+        },        
+        {
+            "genre": "cake",
+            "id": 10004,
+            "recipe": "Red Velvet",
+            "ingredients": "Chocolate",
+            "time": "1 h"
+        },
+        {
+            "genre": "cake",
+            "id": 10005,
+            "recipe": "Strawberry",
+            "ingredients": "Strawberry",
+            "time": "1 h 10 m"
+        },
+        {
+            "genre": "cake",
+            "id": 10006,
+            "recipe": "Chocolate",
+            "ingredients": "Chocolate",
+            "time": "45 m"
+        },
+        {
+            "genre": "pie",
+            "id": 10007,
+            "recipe": "Apple",
+            "ingredients": "Apple, Cinnamon",
+            "time": "2 h"
+        },
+        {
+            "genre": "pie",
+            "id": 10008,
+            "recipe": "Key Lime",
+            "ingredients": "Lime, Graham Cracker",
+            "time": "2 h 30 m"
+        },
+        {
+            "genre": "pie",
+            "id": 10009,
+            "recipe": "Pumpkin",
+            "ingredients": "Pumpkin",
+            "time": "1 h 45 m"
+        },
+        {
+            "genre": "muffins",
+            "id": 10010,
+            "recipe": "Blueberry",
+            "ingredients": "Blueberry",
+            "time": "35 m"
+        },
+        {
+            "genre": "muffins",
+            "id": 10011,
+            "recipe": "Lemon Poppy Seed",
+            "ingredients": "Lemon",
+            "time": "30 m"
+        }
+    ]
+}
