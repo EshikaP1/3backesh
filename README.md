@@ -1,4 +1,6 @@
-# Flask Portfolio Starter
+# WELCOME TO THE FITNESS WEBSITE!! WE ARE HERE TO HELP YOU GET FIT
+
+Flask Portfolio Starter
 
 Use this project to create a Flask Servr.
 
